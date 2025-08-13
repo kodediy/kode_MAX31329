@@ -1,0 +1,62 @@
+# MAX31329 Arduino Library Keywords
+
+# Main class
+MAX31329	KEYWORD1
+MAX31329_Time	KEYWORD1
+
+# Time structure members
+t	KEYWORD2
+year	KEYWORD2
+month	KEYWORD2
+day	KEYWORD2
+hour	KEYWORD2
+minute	KEYWORD2
+second	KEYWORD2
+dayOfWeek	KEYWORD2
+
+# Core methods
+begin	KEYWORD2
+isConnected	KEYWORD2
+readTime	KEYWORD2
+writeTime	KEYWORD2
+
+# Status and interrupts
+readStatus	KEYWORD2
+clearStatus	KEYWORD2
+enableInterrupts	KEYWORD2
+disableInterrupts	KEYWORD2
+
+# RTC control
+startRTC	KEYWORD2
+stopRTC	KEYWORD2
+assertReset	KEYWORD2
+releaseReset	KEYWORD2
+
+# Clock output/input
+clkoEnable	KEYWORD2
+clkoDisable	KEYWORD2
+clkinDisable	KEYWORD2
+
+# Timer functions
+timerConfigure	KEYWORD2
+timerStart	KEYWORD2
+timerPause	KEYWORD2
+timerContinue	KEYWORD2
+timerStop	KEYWORD2
+timerRead	KEYWORD2
+
+# Power management
+setPowerFailThreshold	KEYWORD2
+selectSupply	KEYWORD2
+trickleEnable	KEYWORD2
+trickleDisable	KEYWORD2
+
+# Memory access
+readRam	KEYWORD2
+writeRam	KEYWORD2
+readBytes	KEYWORD2
+writeBytes	KEYWORD2
+
+# Utility
+toTm	KEYWORD2
+fromTm	KEYWORD2
