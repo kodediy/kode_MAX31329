@@ -32,7 +32,7 @@ lib_deps =
 ## Quick Start
 
 ```cpp
-#include <MAX31329.h>
+#include <kode_MAX31329.h>
 
 MAX31329 rtc;
 

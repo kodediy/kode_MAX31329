@@ -5,7 +5,7 @@
  */
 /* ───────── KODE | docs.kode.diy ───────── */
 
-#include <MAX31329.h>
+#include <kode_MAX31329.h>
 
 MAX31329 rtc;
 volatile bool alarm2Flag = false;

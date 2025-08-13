@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "MAX31329.h"
+#include "kode_MAX31329.h"
 
 static inline bool i2cWriteThenRead(TwoWire &w, uint8_t addr, uint8_t reg, uint8_t *buffer, size_t length) {
 	w.beginTransmission(addr);

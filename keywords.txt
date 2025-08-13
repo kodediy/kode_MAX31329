@@ -1,6 +1,7 @@
 # MAX31329 Arduino Library Keywords
 
 # Main class
+kode_MAX31329	KEYWORD1
 MAX31329	KEYWORD1
 MAX31329_Time	KEYWORD1
 
